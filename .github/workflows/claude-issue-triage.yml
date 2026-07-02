@@ -41,6 +41,9 @@ jobs:
                  involucrada (spawn, collide, tryRotate, clearLines, loop, etc.) y
                  la causa raíz probable.
                - Un posible enfoque de solución (sin implementarlo todavía).
+               El comentario debe estar escrito en formato Markdown que GitHub
+               pueda renderizar correctamente (encabezados, listas, bloques de
+               código con ``` para fragmentos de código, etc.).
 
             No implementes ningún cambio de código ni abras PRs — solo labels y
             el comentario de diagnóstico.
