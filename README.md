@@ -184,3 +184,7 @@ Algunos parámetros fáciles de tunear en `game.js`:
 ## Licencia
 
 Proyecto de uso libre con fines educativos y de práctica.
+
+ Debería ser un azul pálido.
+
+CLAUDE_CODE_OAUTH_TOKEN
