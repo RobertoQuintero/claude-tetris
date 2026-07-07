@@ -52,6 +52,10 @@ html[data-theme="light"] {
   --switch-accent: #3b5bdb;
 }
 
+html[data-skin="neon"] {
+  --board-bg: #000000;
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
@@ -179,6 +183,24 @@ body {
 
 .switch input:checked + .slider::before {
   transform: translateX(20px);
+}
+
+/* ---- Selector de skin ---- */
+.skin-select {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#skin-select {
+  background: var(--kbd-bg);
+  color: var(--text-color);
+  border: 1px solid var(--kbd-border);
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /* ---- Controles ---- */
