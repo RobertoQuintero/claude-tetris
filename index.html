@@ -39,6 +39,16 @@
           <canvas id="next-canvas" width="120" height="120"></canvas>
         </div>
 
+        <div class="panel-section high-scores">
+          <span class="label">HIGH SCORES</span>
+          <ol id="high-scores-list" class="high-scores-list"></ol>
+          <div class="high-scores-stats">
+            <span>Mejor combo: <span id="best-combo">0</span></span>
+            <span>Máx. líneas: <span id="max-lines">0</span></span>
+          </div>
+          <button id="reset-scores-btn" class="reset-scores-btn">Resetear récords</button>
+        </div>
+
         <div class="panel-section controls">
           <span class="label">CONTROLS</span>
           <ul>
@@ -56,6 +66,11 @@
       <div class="overlay-box">
         <p id="overlay-title">GAME OVER</p>
         <p id="overlay-score"></p>
+        <div id="new-highscore-form" class="new-highscore-form hidden">
+          <p class="new-highscore-label">¡Nueva puntuación en el TOP 5!</p>
+          <input type="text" id="player-name-input" maxlength="10" placeholder="Jugador" autocomplete="off" />
+          <button id="save-score-btn">Guardar</button>
+        </div>
         <button id="restart-btn">Reiniciar</button>
       </div>
     </div>
